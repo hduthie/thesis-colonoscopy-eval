@@ -32,3 +32,8 @@ data/
 .vscode/
 
 screening_plots/
+scripts/undistort.py
+scripts/utils
+scripts/utils2
+notebooks/undistort_pointcloud.py
+cleanup.sh
