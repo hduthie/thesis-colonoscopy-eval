@@ -11,29 +11,26 @@ It supports evaluating multiple learned feature matchers and ensembles on the C3
 ## Project Structure
 
 ```text
-my_project/
+thesis-colonoscopy-eval/
 ├── ablation_outputs/               # Outputs of ablation data analysis: plots etc
 ├── data/
 │   └── C3VD/cecum_t1_a/            # Example undistorted video sequence
 ├── data_analysis_outputs/          # Outputs of main data analysis: plots etc
 ├── env/
-    └── environment.yml             # Conda environment file
+│   └── environment.yml             # Conda environment file
 ├── libs/                           # Custom libraries (if used)
 ├── notebooks/
-    └── matching_analysis.ipynb     # Main experimental development 
+│   └── matching_analysis.ipynb     # Main experimental development 
 ├── results/                        # Output folder for experiment results
 ├── scripts/
 │   └── matching_analysis.py        # Main analysis script
-│   └── undistortion.py             # Main analysis script
-│   └── utils/                      # Main analysis script
-│   └── utils2/                     # Main analysis script
 ├── src/
 │   ├── ensemble.py                 # Ensemble matcher logic
 │   ├── io.py                       # Data loading and I/O utilities
 │   ├── pose_utils.py               # Pose estimation utilities
 ├── ablation_run.sh                 # Example run script
-├── ablation_study_modified         # Analysis notebook of ablation study
-├── ablation_study_modified         # Analysis notebook of ablation study
+├── ablation_study_modified.ipynb   # Analysis notebook of ablation study
+├── data_analysis.ipynb             # Analysis notebook of main matchers study
 ├── run_experiments.sh              # Example run script
 ├── batch_process.sh                # Example run script
 ├── debug_single_video.sh           # Example debug script
@@ -85,7 +82,7 @@ These scripts will run matcher evaluation on the included C3VD example video.
 The primary script is:
 
 ```bash
-python code/matching_analysis.py
+python scripts/matching_analysis.py
 ```
 
 This performs feature matching, pose estimation, and outputs metrics.
