@@ -1,0 +1,3 @@
+video,matcher,frame_start,frame_end,rotation_error_deg,translation_error_deg,num_matches,num_inliers,mean_reprojection_error_px
+trans_t1_a,ensemble_topfrac0.7_thresh1,0,1,26.17088598347996,49.04827294721918,56,56,371.5763278056446
+trans_t1_a,ensemble_topfrac0.7_thresh1,1,2,0.4900713177780176,77.29177854044553,115,115,21.661264688105728

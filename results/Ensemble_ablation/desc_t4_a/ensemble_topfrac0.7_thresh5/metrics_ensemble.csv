@@ -1,0 +1,5 @@
+video,matcher,frame_start,frame_end,rotation_error_deg,translation_error_deg,num_matches,num_inliers,mean_reprojection_error_px
+desc_t4_a,ensemble_topfrac0.7_thresh5,0,1,0.07455499938051083,28.063409016468498,107,107,72.91529252728351
+desc_t4_a,ensemble_topfrac0.7_thresh5,1,2,0.3047576170164645,55.671497060521844,256,256,67.35035482967159
+desc_t4_a,ensemble_topfrac0.7_thresh5,2,3,0.5011702856094068,53.9462075633241,155,155,84.11845276622957
+desc_t4_a,ensemble_topfrac0.7_thresh5,3,4,0.3942532875518417,53.63359145552345,340,340,30.262150808437045

@@ -1,0 +1,10 @@
+frame_start,frame_end,skipped_frames,skip_used,success,reason
+0,,"[1, 2, 3, 4, 5]",,False,Pose estimation failed
+1,2.0,[],1.0,True,
+2,3.0,[],1.0,True,
+3,4.0,[],1.0,True,
+4,5.0,[],1.0,True,
+5,6.0,[],1.0,True,
+6,,"[7, 8, 9]",,False,Pose estimation failed
+7,8.0,[],1.0,True,
+8,9.0,[],1.0,True,

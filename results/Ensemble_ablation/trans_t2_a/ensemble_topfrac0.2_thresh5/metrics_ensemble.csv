@@ -1,0 +1,6 @@
+video,matcher,frame_start,frame_end,rotation_error_deg,translation_error_deg,num_matches,num_inliers,mean_reprojection_error_px
+trans_t2_a,ensemble_topfrac0.2_thresh5,0,1,0.3297874900049836,68.37492251719883,26,26,47.586801598449334
+trans_t2_a,ensemble_topfrac0.2_thresh5,2,3,0.2329582845246633,59.299575158639186,51,51,38.36889179434671
+trans_t2_a,ensemble_topfrac0.2_thresh5,3,4,0.0,42.4381801576653,526,526,22.53816218943229
+trans_t2_a,ensemble_topfrac0.2_thresh5,4,5,0.0717162605596826,61.47822240749667,539,539,33.4906209998322
+trans_t2_a,ensemble_topfrac0.2_thresh5,5,6,0.05771805821716213,76.53254785483013,552,552,34.02986449184938

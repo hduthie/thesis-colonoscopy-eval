@@ -1,0 +1,2 @@
+video,matcher,frame_start,frame_end,rotation_error_deg,translation_error_deg,num_matches,num_inliers,mean_reprojection_error_px
+trans_t1_a,disk-lg,1,2,4.786049463433262,66.04257791636603,16,16,80.25969642523458
